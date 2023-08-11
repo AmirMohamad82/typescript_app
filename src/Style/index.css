@@ -1,0 +1,182 @@
+html,
+body {
+  background-color: rgb(165, 165, 165);
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 2vw;
+  min-height: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.space {
+  height: 30px;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.active {
+  border-bottom: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.pageHome img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text span {
+  font-weight: normal;
+  font-size: 14px;
+  color: rgb(173, 173, 173);
+}
+
+.container {
+  margin-top: 30px;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.container a {
+  margin-right: 5px;
+}
+
+.span {
+  margin: 0 20px;
+  width: 1px;
+  border: 2px solid rgb(185, 184, 184);
+}
+
+.text-decoration-none a {
+  text-decoration: none;
+}
+
+.bg-gray {
+  background-color: rgb(185, 184, 184);
+}
+
+.text-gray {
+  color: rgb(143, 142, 142);
+}
+
+.task section {
+  font-size: 14px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  height: auto;
+  padding: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgb(87, 86, 86);
+  color: rgb(160, 156, 156);
+}
+
+.task table {
+  width: 100%;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.tdr {
+  text-align: right;
+}
+
+.people img {
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 3vw;
+  width: 3vw;
+}
+
+.people div {
+  display: inline-block;
+}
+
+.dv1 {
+  position: sticky;
+  z-index: 7;
+  margin-right: -4%;
+}
+
+.dv2 {
+  position: sticky;
+  z-index: 8;
+  margin-right: -4%;
+}
+
+.dv3 {
+  position: sticky;
+  z-index: 9;
+}
+
+.end {
+  background-color: white;
+  opacity: 0.4;
+}
+
+.size{
+  font-size: 14px !important;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .main {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .main {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    max-width: 90%;
+    margin-left: 5%;
+  }
+  .task section {
+    margin-left: 7.5%;
+  }
+  .not div {
+    height: 5vw;
+    width: 5vw;
+    margin-left: 82%;
+  }
+  .people img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .dv1 {
+    margin-right: -8%;
+  }
+  .dv2 {
+    margin-right: -8%;
+  }
+}
